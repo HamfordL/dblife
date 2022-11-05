@@ -1,5 +1,6 @@
 import { Layout, Typography, Image, Menu } from "antd";
-import React, { useState } from "react";
+import React, { useState, Component } from "react";
+import { Link, Routes, Route, useNavigate } from "react-router-dom";
 import "./App.css";
 
 const { Header, Footer, Sider, Content } = Layout;
@@ -67,7 +68,9 @@ function App() {
                 }
               >
                 <Menu.ItemGroup>
-                  <Menu.Item key="guildLeader">Guild Leader</Menu.Item>
+                  <Menu.Item onClick key="guildLeader">
+                    Guild Leader
+                  </Menu.Item>
                   <Menu.Item key="guildMembers">Guild Officers</Menu.Item>
                   <Menu.Item key="guildMembers">Guild Members</Menu.Item>
                 </Menu.ItemGroup>
@@ -114,9 +117,9 @@ function App() {
             >
               <Image
                 className="center"
-                width={600}
+                width={400}
                 height={200}
-                src="src\ui.jpg"
+                src="src/ui.jpg"
               />
               <div class="container">
                 <div class="box-1">
