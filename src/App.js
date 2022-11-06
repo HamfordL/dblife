@@ -112,7 +112,7 @@ function App() {
                 background: "black",
                 fontsize: 22,
                 color: "yellow",
-                padding: 200,
+                padding: 155,
               }}
             >
               <Image
@@ -123,7 +123,7 @@ function App() {
               />
               <div class="container">
                 <div class="box-1">
-                  <p>
+                  <p style={{ padding: 30 }}>
                     We strive to be a top 20-40 guild, but also a familial
                     guild. We want to keep an active guild discord where we talk
                     about all things DB and more. A band of brothers, if you

@@ -12,10 +12,12 @@ const App = () => (
 
     <div class="container">
       <div class="box-1">
+        <p>Here is a list of our Guild Officers.</p>
+
         <p>
-          Here is a list of our Guild Officers As an Officers of the Guild, we
-          share many of the guild leader's tools for managing the guild, its
-          members, and activities.
+          {" "}
+          As an Officers of the Guild, we share many of the guild leader's tools
+          for managing the guild, its members, and activities.
         </p>
       </div>
     </div>
