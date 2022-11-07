@@ -1,8 +1,10 @@
 import React from "react";
 import { Layout, Typography } from "antd";
+import { Routes, Route } from "react-router-dom";
 
 import SiderMenu from "./components/sider-menu";
 import HomePage from "./views/home-page";
+import Announcements from "./views/announcements";
 
 import "./App.css";
 
@@ -12,7 +14,7 @@ const { Title } = Typography;
 function App() {
   return (
     <div className="App">
-      <Layout>
+      <Layout style={{ height: "100%" }}>
         <Header style={{ background: "orange" }}>
           <Title level={1}>Welcome to DB Life!</Title>
         </Header>
@@ -20,8 +22,11 @@ function App() {
         <Layout>
           <SiderMenu />
 
-          <Content>
-            <HomePage />
+          <Content style={{}}>
+            <Routes>
+              <Route path="/" exact element={<HomePage />} />
+              <Route path="/announcements" element={<Announcements />} />
+            </Routes>
           </Content>
         </Layout>
 
