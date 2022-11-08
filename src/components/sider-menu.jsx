@@ -2,7 +2,7 @@ import { Layout, Menu } from "antd";
 import { Link } from "react-router-dom";
 
 const SiderMenu = () => (
-  <Layout.Sider style={{ background: "orange", padding: 10 }}>
+  <Layout.Sider style={{ background: "orange", padding: 1 }}>
     <Menu defaultSelectdKeys={["Home"]}>
       <Menu.Item key="Home">
         <Link to="/">Home</Link>
@@ -55,11 +55,15 @@ const SiderMenu = () => (
         }
       >
         <Menu.ItemGroup>
-          <Menu.Item onClick key="guildLeader">
-            Guild Leader
+          <Menu.Item key="guildLeader">
+            <Link to="/guild-leader">Guild Leader</Link>
           </Menu.Item>
-          <Menu.Item key="guildMembers">Guild Officers</Menu.Item>
-          <Menu.Item key="guildMembers">Guild Members</Menu.Item>
+          <Menu.Item key="guildOfficers">
+            <Link to="/guild-officers">Guild Officers</Link>
+          </Menu.Item>
+          <Menu.Item key="guildMembers">
+            <Link to="/guild-members">Guild Members</Link>
+          </Menu.Item>
         </Menu.ItemGroup>
       </Menu.SubMenu>
       <Menu.SubMenu
