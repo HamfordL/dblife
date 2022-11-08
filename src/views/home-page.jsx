@@ -1,11 +1,11 @@
 import { Image } from "antd";
-import homeImage from "../ui.jpg";
+import homeImage from "../images/ui.jpg";
 
 const HomePage = () => (
   <div
     style={{
       background: "black",
-      fontsize: 22,
+      fontSize: 32,
       color: "yellow",
       padding: 155,
       display: "flex",
@@ -15,7 +15,7 @@ const HomePage = () => (
       alignItems: "center",
     }}
   >
-    <Image className="center" width={400} height={200} src={homeImage} />
+    <Image className="center" width={500} height={300} src={homeImage} />
     <div class="container">
       <div class="box-1">
         <p style={{ padding: 30 }}>
