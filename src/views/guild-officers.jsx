@@ -1,10 +1,25 @@
 const GuildOfficers = () => (
-  <div>
-    Our Guild Officer's Page
+  <div
+    style={{
+      background: "black",
+      fontsize: 22,
+      color: "yellow",
+      padding: 155,
+      display: "flex",
+      flex: 1,
+      height: "100%",
+      flexDirection: "column",
+      alignItems: "center",
+    }}
+  >
+    Our Guild's Officers consist of 2 long time members.
     <br />
     <br />
-    As an Officers of the Guild, we share many of the guild leader's tools for
-    managing the guild, its members, and activities.
+    <br />
+    <br />
+    łƵł ゴミ箱 RR
+    <br />
+    łƵł B WILD
   </div>
 );
 

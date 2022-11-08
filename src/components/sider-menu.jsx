@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 const SiderMenu = () => (
   <Layout.Sider style={{ background: "orange", padding: 1 }}>
-    <Menu defaultSelectdKeys={["Home"]}>
+    <Menu defaultSelectdKeys={["Home"]} style={{ background: "pink" }}>
       <Menu.Item key="Home">
         <Link to="/">Home</Link>
       </Menu.Item>
+
       <Menu.SubMenu
         title={
           <span>
@@ -14,20 +15,21 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup>
+        <Menu.ItemGroup style={{ background: "pink" }}>
           <Menu.Item key="news">
             <Link to="/announcements">Announcements</Link>
           </Menu.Item>
         </Menu.ItemGroup>
       </Menu.SubMenu>
+
       <Menu.SubMenu
         title={
           <span>
-            <span>Guides</span>
+            <span>Forums</span>
           </span>
         }
       >
-        <Menu.ItemGroup>
+        <Menu.ItemGroup style={{ background: "pink" }}>
           <Menu.Item key="teamBuild">Team Build</Menu.Item>
           <Menu.Item key="guildPoints">Guild Points</Menu.Item>
           <Menu.Item key="events">Events</Menu.Item>
@@ -37,24 +39,11 @@ const SiderMenu = () => (
       <Menu.SubMenu
         title={
           <span>
-            <span>Screenshots</span>
-          </span>
-        }
-      >
-        <Menu.ItemGroup>
-          <Menu.Item key="forfeit">Forfeits</Menu.Item>
-          <Menu.Item key="artWork">Art Work</Menu.Item>
-          <Menu.Item key="events">Events</Menu.Item>
-        </Menu.ItemGroup>
-      </Menu.SubMenu>
-      <Menu.SubMenu
-        title={
-          <span>
             <span>Roster</span>
           </span>
         }
       >
-        <Menu.ItemGroup>
+        <Menu.ItemGroup style={{ background: "pink" }}>
           <Menu.Item key="guildLeader">
             <Link to="/guild-leader">Guild Leader</Link>
           </Menu.Item>
@@ -66,6 +55,7 @@ const SiderMenu = () => (
           </Menu.Item>
         </Menu.ItemGroup>
       </Menu.SubMenu>
+
       <Menu.SubMenu
         title={
           <span>
@@ -73,11 +63,12 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup>
+        <Menu.ItemGroup style={{ background: "pink" }}>
           <Menu.Item key="inGuildTournament">In Guild Tournament</Menu.Item>
           <Menu.Item key="public Tournament">Public Tournament</Menu.Item>
         </Menu.ItemGroup>
       </Menu.SubMenu>
+
       <Menu.SubMenu
         title={
           <span>
@@ -85,7 +76,7 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup>
+        <Menu.ItemGroup style={{ background: "pink" }}>
           <Menu.Item key="dbSpace">DB Space</Menu.Item>
           <Menu.Item key="gamePress">Game Press</Menu.Item>
           <Menu.Item key="dblwebsite">DBL Website</Menu.Item>
