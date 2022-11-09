@@ -1,6 +1,7 @@
-import { Card, Col, Row } from "antd";
-import MembersImage from "../images/Shenron.jpg";
 import React from "react";
+import { Card, Col, Row } from "antd";
+
+import MembersImage from "../images/Shenron.jpg";
 
 const GuildMembers = () => (
   <div

@@ -1,4 +1,6 @@
+import React from "react";
 import { Card } from "antd";
+
 import LeaderImage from "../images/uiomen.jpg";
 
 const GuildLeader = () => (
@@ -8,7 +10,7 @@ const GuildLeader = () => (
       fontSize: 40,
       fontWeight: "bold",
       color: "black",
-      padding: 155,
+      padding: 10,
       display: "flex",
       flex: 1,
       height: "100%",

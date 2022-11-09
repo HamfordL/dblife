@@ -2,9 +2,10 @@ const Announcements = () => (
   <div
     style={{
       background: "black",
-      fontSize: 30,
+      fontSize: 40,
+      fontWeight: "bold",
       color: "yellow",
-      padding: 155,
+      padding: 10,
       display: "flex",
       flex: 1,
       height: "100%",

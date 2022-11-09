@@ -1,15 +1,22 @@
-const EventsPage = () => (
+import React from "react";
+import EventImage from "../images/jaco.webp";
+
+const EventPage = () => (
   <div
     style={{
       background: "black",
-      fontSize: 30,
-      color: "yellow",
-      padding: 155,
+      fontSize: 40,
+      fontWeight: "bold",
+      color: "black",
+      padding: 10,
       display: "flex",
       flex: 1,
       height: "100%",
       flexDirection: "column",
       alignItems: "center",
+      backgroundImage: `url(${EventImage})`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
       border: "2px solid red",
     }}
   >
@@ -27,4 +34,4 @@ const EventsPage = () => (
   </div>
 );
 
-export default EventsPage;
+export default EventPage;

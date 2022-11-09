@@ -1,5 +1,5 @@
-import { Card, Col, Row } from "antd";
 import React from "react";
+import { Card, Col, Row } from "antd";
 
 import OfficersImage from "../images/gokubeerus.jpg";
 
@@ -10,7 +10,7 @@ const GuildOfficers = () => (
       fontSize: 40,
       fontWeight: "bold",
       color: "black",
-      padding: 155,
+      padding: 10,
       display: "flex",
       flex: 1,
       height: "100%",

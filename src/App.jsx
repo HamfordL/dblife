@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import SiderMenu from "./components/sider-menu";
 import HomePage from "./views/home-page";
 import Announcements from "./views/announcements";
-import EventsPage from "./views/events-page";
+import EventPage from "./views/event-page";
 import GuildMembers from "./views/guild-members";
 import GuildLeader from "./views/guild-leader";
 import GuildOfficers from "./views/guild-officers";
@@ -30,10 +30,10 @@ function App() {
             <Routes>
               <Route path="/" exact element={<HomePage />} />
               <Route path="/announcements" element={<Announcements />} />
-              <Route path="/events-page" element={<EventsPage />} />
               <Route path="/guild-members" element={<GuildMembers />} />
               <Route path="/guild-leader" element={<GuildLeader />} />
               <Route path="/guild-officers" element={<GuildOfficers />} />
+              <Route path="/event-page" element={<EventPage />} />
             </Routes>
           </Content>
         </Layout>
