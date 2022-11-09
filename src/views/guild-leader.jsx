@@ -1,5 +1,5 @@
 import { Card } from "antd";
-import LeaderImage from "../images/jaco.webp";
+import LeaderImage from "../images/uiomen.jpg";
 
 const GuildLeader = () => (
   <div
@@ -17,14 +17,22 @@ const GuildLeader = () => (
       backgroundImage: `url(${LeaderImage})`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
+      border: "2px solid red",
     }}
   >
-    Our Guild Leader's Page
+    <container style={{ border: "1px solid red" }}>
+      Our Guild Leader's Page
+    </container>
     <br />
     <br />
     <div className="site-card-border-less-wrapper">
       <Card
         title="łƵłIllyrion"
+        headStyle={{
+          backgroundColor: "#5c6cfa",
+          color: "#ffffff",
+          fontWeight: "bold",
+        }}
         bordered={false}
         style={{
           width: 300,

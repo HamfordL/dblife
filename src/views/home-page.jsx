@@ -13,6 +13,7 @@ const HomePage = () => (
       height: "100%",
       flexDirection: "column",
       alignItems: "center",
+      border: "2px solid red",
     }}
   >
     <Image className="center" width={500} height={300} src={homeImage} />

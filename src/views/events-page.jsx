@@ -1,4 +1,4 @@
-const Announcements = () => (
+const EventsPage = () => (
   <div
     style={{
       background: "black",
@@ -14,16 +14,17 @@ const Announcements = () => (
     }}
   >
     <container style={{ border: "1px solid red" }}>
-      Announcements Page
+      Current Events happening in game.
     </container>
     <br />
     <br />
     <container style={{ border: "1px solid red" }}>
-      Read about the latest happenings from DB Life here!
+      Stay up to date with the current latest Events happening in Dragon Ball
+      Legends!
     </container>
     <br />
     <br />
   </div>
 );
 
-export default Announcements;
+export default EventsPage;

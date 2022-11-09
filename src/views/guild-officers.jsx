@@ -1,8 +1,7 @@
 import { Card, Col, Row } from "antd";
-import YobsImage from "../images/GogetaBlue.jpg";
-import RapImage from "../images/cooler.jpg";
-import OfficersImage from "../images/gokubeerus.jpg";
 import React from "react";
+
+import OfficersImage from "../images/gokubeerus.jpg";
 
 const GuildOfficers = () => (
   <div
@@ -20,9 +19,12 @@ const GuildOfficers = () => (
       backgroundImage: `url(${OfficersImage})`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
+      border: "2px solid red",
     }}
   >
-    Our Guild's Officers consist of 2 long time members.
+    <container style={{ border: "1px solid red" }}>
+      Our Guild's Officers consist of 2 long time members.
+    </container>
     <br />
     <br />
     <br />
@@ -36,10 +38,15 @@ const GuildOfficers = () => (
               backgroundPosition: "center",
               backgroundSize: "cover",
               fontWeight: "bold",
-              color: "green",
+              color: "black",
               fontSize: 20,
             }}
             title="łƵł ゴミ箱 RR"
+            headStyle={{
+              backgroundColor: "#5c6cfa",
+              color: "#ffffff",
+              fontWeight: "bold",
+            }}
             bordered={false}
           >
             19x Godly
@@ -56,10 +63,15 @@ const GuildOfficers = () => (
               backgroundPosition: "center",
               backgroundSize: "cover",
               fontWeight: "bold",
-              color: "green",
+              color: "black",
               fontSize: 20,
             }}
             title="łƵł B WILD"
+            headStyle={{
+              backgroundColor: "#5c6cfa",
+              color: "#ffffff",
+              fontWeight: "bold",
+            }}
             bordered={false}
           >
             2x Godly
