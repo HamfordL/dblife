@@ -2,8 +2,11 @@ import { Layout, Menu } from "antd";
 import { Link } from "react-router-dom";
 
 const SiderMenu = () => (
-  <Layout.Sider style={{ background: "orange", padding: 1 }}>
-    <Menu defaultSelectdKeys={["Home"]} style={{ background: "pink" }}>
+  <Layout.Sider style={{ background: "lightblue", padding: 1 }}>
+    <Menu
+      defaultSelectdKeys={["Home"]}
+      style={{ background: "orange", padding: 1 }}
+    >
       <Menu.Item key="Home">
         <Link to="/">Home</Link>
       </Menu.Item>
@@ -15,7 +18,7 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup style={{ background: "pink" }}>
+        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
           <Menu.Item key="news">
             <Link to="/announcements">Announcements</Link>
           </Menu.Item>
@@ -29,7 +32,7 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup style={{ background: "pink" }}>
+        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
           <Menu.Item key="teamBuild">Team Build</Menu.Item>
           <Menu.Item key="guildPoints">Guild Points</Menu.Item>
           <Menu.Item key="events">
@@ -45,7 +48,7 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup style={{ background: "pink" }}>
+        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
           <Menu.Item key="guildLeader">
             <Link to="/guild-leader">Guild Leader</Link>
           </Menu.Item>
@@ -65,7 +68,7 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup style={{ background: "pink" }}>
+        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
           <Menu.Item key="inGuildTournament">In Guild Tournament</Menu.Item>
           <Menu.Item key="public Tournament">Public Tournament</Menu.Item>
         </Menu.ItemGroup>
@@ -78,7 +81,7 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup style={{ background: "pink" }}>
+        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
           <Menu.Item key="dbSpace">DB Space</Menu.Item>
           <Menu.Item key="gamePress">Game Press</Menu.Item>
           <Menu.Item key="dblwebsite">DBL Website</Menu.Item>

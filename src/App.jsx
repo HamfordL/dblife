@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Layout style={{ height: "100%" }}>
-        <Header style={{ background: "orange" }}>
+        <Header style={{ background: "lightblue" }}>
           <Title level={1}>Welcome to DB Life!</Title>
         </Header>
 
