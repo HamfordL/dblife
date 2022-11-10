@@ -19,8 +19,14 @@ function App() {
   return (
     <div className="App">
       <Layout style={{ height: "100%" }}>
-        <Header style={{ background: "lightblue" }}>
-          <Title level={1}>Welcome to DB Life!</Title>
+        <Header
+          style={{
+            background: "black",
+          }}
+        >
+          <Title style={{ color: "lightblue", fontWeight: "bold" }} level={1}>
+            Welcome to DB Life!
+          </Title>
         </Header>
 
         <Layout>
@@ -38,7 +44,14 @@ function App() {
           </Content>
         </Layout>
 
-        <Footer style={{ padding: 2 }}>Official website for DB Life</Footer>
+        <Footer
+          style={{
+            marginTop: "100vh",
+            padding: 1,
+          }}
+        >
+          Official website for DB Life
+        </Footer>
       </Layout>
     </div>
   );

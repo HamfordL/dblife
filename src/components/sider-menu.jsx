@@ -2,7 +2,13 @@ import { Layout, Menu } from "antd";
 import { Link } from "react-router-dom";
 
 const SiderMenu = () => (
-  <Layout.Sider style={{ background: "lightblue", padding: 1 }}>
+  <Layout.Sider
+    style={{
+      background: "black",
+      padding: 0.1,
+      height: "100vh",
+    }}
+  >
     <Menu
       defaultSelectdKeys={["Home"]}
       style={{ background: "orange", padding: 1 }}

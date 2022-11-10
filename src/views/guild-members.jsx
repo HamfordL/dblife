@@ -11,11 +11,10 @@ const GuildMembers = () => (
       padding: 155,
       display: "flex",
       flex: 1,
-      height: "100%",
-      flexDirection: "column",
+      height: "100vh",
       alignItems: "center",
       backgroundImage: `url(${MembersImage})`,
-      border: "2px solid red",
+      border: "1px solid red",
     }}
   >
     <br />
@@ -386,7 +385,7 @@ const GuildMembers = () => (
             }}
             bordered={true}
           >
-            0x Godly
+            12x Godly
             <br />
             <br />
             4x Top Guild Season Scorer
@@ -404,7 +403,7 @@ const GuildMembers = () => (
             }}
             bordered={true}
           >
-            0x Godly
+            2x Godly
             <br />
             <br />
             0x Top Guild Season Scorer
@@ -444,6 +443,61 @@ const GuildMembers = () => (
             <br />
             <br />
             2x Top Guild Season Scorer
+          </Card>
+        </Col>
+
+        <Col style={{ padding: 2 }} span={3}>
+          <Card
+            style={{ border: "black" }}
+            title="łƵł ìtãçhí"
+            headStyle={{
+              backgroundColor: "#5c6cfa",
+              color: "#ffffff",
+              fontWeight: "bold",
+            }}
+            bordered={true}
+          >
+            0x Godly
+            <br />
+            <br />
+            0x Top Guild Season Scorer
+          </Card>
+        </Col>
+
+        <Col style={{ padding: 2 }} span={3}>
+          <Card
+            style={{ border: "black" }}
+            title="łƵł ฿ⱤØ₲Ɇ₮₳"
+            headStyle={{
+              backgroundColor: "#5c6cfa",
+              color: "#ffffff",
+              fontWeight: "bold",
+            }}
+            bordered={true}
+          >
+            0x Godly
+            <br />
+            <br />
+            0x Top Guild Season Scorer
+          </Card>
+        </Col>
+
+        <Col style={{ padding: 2 }} span={3}>
+          <Card
+            style={{ border: "black" }}
+            title="łƵł 丂ㄩҜㄩ几卂"
+            headStyle={{
+              backgroundColor: "#5c6cfa",
+              color: "#ffffff",
+              fontWeight: "bold",
+            }}
+            bordered={true}
+          >
+            Account Manager
+            <br />
+            <br />
+            <br />
+            <br />
           </Card>
         </Col>
       </Row>

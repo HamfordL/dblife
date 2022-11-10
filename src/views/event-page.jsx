@@ -11,13 +11,13 @@ const EventPage = () => (
       padding: 10,
       display: "flex",
       flex: 1,
-      height: "100%",
+      height: "100vh",
       flexDirection: "column",
       alignItems: "center",
       backgroundImage: `url(${EventImage})`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      border: "2px solid red",
+      border: "1px solid red",
     }}
   >
     <container style={{ border: "1px solid red" }}>
