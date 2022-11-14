@@ -11,8 +11,6 @@ import GuildLeader from "./views/guild-leader";
 import GuildOfficers from "./views/guild-officers";
 import Registration from "./views/registration";
 
-import { getDatabase } from "firebase/database";
-
 import "./App.css";
 
 const { Header, Footer, Content } = Layout;
