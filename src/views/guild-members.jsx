@@ -512,11 +512,11 @@ const GuildMembers = () => (
             }}
             bordered={true}
           >
-            Account Manager
+            <br />
+            Account
             <br />
             <br />
-            <br />
-            <br />
+            Manager
           </Card>
         </Col>
       </Row>

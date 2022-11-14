@@ -5,12 +5,12 @@ import { Routes, Route } from "react-router-dom";
 import SiderMenu from "./components/sider-menu";
 import HomePage from "./views/home-page";
 import Announcements from "./views/announcements";
-import EventPage from "./views/event-page";
 import GuildMembers from "./views/guild-members";
 import GuildLeader from "./views/guild-leader";
 import GuildOfficers from "./views/guild-officers";
 import Registration from "./views/registration";
 import SignIn from "./views/sign-in";
+import GuildPoints from "./views/guild-points";
 
 import "./App.css";
 
@@ -20,7 +20,14 @@ const { Title } = Typography;
 function App() {
   return (
     <div className="App">
-      <Layout style={{ height: "100vh" }}>
+      <Layout
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          height: "100vh",
+          position: "relative",
+        }}
+      >
         <Header
           style={{
             background: "black",
@@ -41,9 +48,9 @@ function App() {
               <Route path="/guild-members" element={<GuildMembers />} />
               <Route path="/guild-leader" element={<GuildLeader />} />
               <Route path="/guild-officers" element={<GuildOfficers />} />
-              <Route path="/event-page" element={<EventPage />} />
               <Route path="/registration" element={<Registration />} />
               <Route path="/sign-in" element={<SignIn />} />
+              <Route path="/guild-points" element={<GuildPoints />} />
             </Routes>
           </Content>
         </Layout>

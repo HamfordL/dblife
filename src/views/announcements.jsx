@@ -18,7 +18,6 @@ const Announcements = () => (
       Announcements Page
     </container>
     <br />
-
     <container style={{ border: "1px solid red" }}>
       Read about the latest happenings from DB Life here!
     </container>

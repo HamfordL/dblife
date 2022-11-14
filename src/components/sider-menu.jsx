@@ -40,9 +40,8 @@ const SiderMenu = () => (
       >
         <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
           <Menu.Item key="teamBuild">Team Build</Menu.Item>
-          <Menu.Item key="guildPoints">Guild Points</Menu.Item>
-          <Menu.Item key="events">
-            <Link to="/event-page">Events</Link>
+          <Menu.Item key="guildPoints">
+            <Link to="/guild-points">Guild Points</Link>
           </Menu.Item>
         </Menu.ItemGroup>
       </Menu.SubMenu>
