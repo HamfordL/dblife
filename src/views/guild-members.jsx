@@ -13,6 +13,7 @@ const GuildMembers = () => (
       flex: 1,
       height: "100vh",
       alignItems: "center",
+      justifyContent: "absolute",
       backgroundImage: `url(${MembersImage})`,
       border: "1px solid red",
     }}
@@ -32,6 +33,24 @@ const GuildMembers = () => (
           fontSize: 20,
         }}
       >
+        <Col style={{ padding: 2 }} span={3}>
+          <Card
+            style={{ border: "black" }}
+            title="łƵł $av."
+            headStyle={{
+              backgroundColor: "#5c6cfa",
+              color: "#ffffff",
+              fontWeight: "bold",
+            }}
+            bordered={true}
+          >
+            0x Godly
+            <br />
+            <br />
+            0x Top Guild Season Scorer
+          </Card>
+        </Col>
+
         <Col style={{ padding: 2 }} span={3}>
           <Card
             style={{ border: "black" }}
@@ -439,7 +458,7 @@ const GuildMembers = () => (
             }}
             bordered={true}
           >
-            0x Godly
+            7x Godly
             <br />
             <br />
             2x Top Guild Season Scorer

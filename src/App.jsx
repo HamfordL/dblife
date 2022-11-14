@@ -9,6 +9,9 @@ import EventPage from "./views/event-page";
 import GuildMembers from "./views/guild-members";
 import GuildLeader from "./views/guild-leader";
 import GuildOfficers from "./views/guild-officers";
+import Registration from "./views/registration";
+
+import { getDatabase } from "firebase/database";
 
 import "./App.css";
 
@@ -18,7 +21,7 @@ const { Title } = Typography;
 function App() {
   return (
     <div className="App">
-      <Layout style={{ height: "100%" }}>
+      <Layout style={{ height: "100vh" }}>
         <Header
           style={{
             background: "black",
@@ -40,6 +43,7 @@ function App() {
               <Route path="/guild-leader" element={<GuildLeader />} />
               <Route path="/guild-officers" element={<GuildOfficers />} />
               <Route path="/event-page" element={<EventPage />} />
+              <Route path="/registration" element={<Registration />} />
             </Routes>
           </Content>
         </Layout>

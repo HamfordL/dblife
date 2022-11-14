@@ -93,6 +93,21 @@ const SiderMenu = () => (
           <Menu.Item key="dblwebsite">DBL Website</Menu.Item>
         </Menu.ItemGroup>
       </Menu.SubMenu>
+
+      <Menu.SubMenu
+        title={
+          <span>
+            <span>Login</span>
+          </span>
+        }
+      >
+        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
+          <Menu.Item key="signIn">Sign In</Menu.Item>
+          <Menu.Item key="registration">
+            <Link to="/registration">Registration</Link>
+          </Menu.Item>
+        </Menu.ItemGroup>
+      </Menu.SubMenu>
     </Menu>
   </Layout.Sider>
 );
