@@ -102,7 +102,9 @@ const SiderMenu = () => (
         }
       >
         <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
-          <Menu.Item key="signIn">Sign In</Menu.Item>
+          <Menu.Item key="signIn">
+            <Link to="/sign-in">Sign-In</Link>
+          </Menu.Item>
           <Menu.Item key="registration">
             <Link to="/registration">Registration</Link>
           </Menu.Item>

@@ -10,6 +10,7 @@ import GuildMembers from "./views/guild-members";
 import GuildLeader from "./views/guild-leader";
 import GuildOfficers from "./views/guild-officers";
 import Registration from "./views/registration";
+import SignIn from "./views/sign-in";
 
 import "./App.css";
 
@@ -25,7 +26,7 @@ function App() {
             background: "black",
           }}
         >
-          <Title style={{ color: "lightblue", fontWeight: "bold" }} level={1}>
+          <Title style={{ color: "green", fontWeight: "bold" }} level={1}>
             Welcome to DB Life!
           </Title>
         </Header>
@@ -42,6 +43,7 @@ function App() {
               <Route path="/guild-officers" element={<GuildOfficers />} />
               <Route path="/event-page" element={<EventPage />} />
               <Route path="/registration" element={<Registration />} />
+              <Route path="/sign-in" element={<SignIn />} />
             </Routes>
           </Content>
         </Layout>

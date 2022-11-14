@@ -72,7 +72,7 @@ function RegistrationForm() {
             for="firstName"
             style={{ fontWeight: "bold", fontSize: 20 }}
           >
-            First Name{" "}
+            First Name{" : "}
           </label>
           <input
             className="form__input"
@@ -90,7 +90,7 @@ function RegistrationForm() {
             for="lastName"
             style={{ fontWeight: "bold", fontSize: 20 }}
           >
-            Last Name{" "}
+            Last Name{" : "}
           </label>
           <input
             type="text"
@@ -109,7 +109,7 @@ function RegistrationForm() {
             for="email"
             style={{ fontWeight: "bold", fontSize: 20 }}
           >
-            Email{" "}
+            Email{" : "}
           </label>
           <input
             type="email"
@@ -127,7 +127,7 @@ function RegistrationForm() {
             for="password"
             style={{ fontWeight: "bold", fontSize: 20 }}
           >
-            Password{" "}
+            Password{" : "}
           </label>
           <input
             className="form__input"
@@ -145,7 +145,7 @@ function RegistrationForm() {
             for="confirmPassword"
             style={{ fontWeight: "bold", fontSize: 20 }}
           >
-            Confirm Password{" "}
+            Confirm Password{" : "}
           </label>
           <input
             className="form__input"
