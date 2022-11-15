@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+import { Image } from "antd";
+
+import LegendsLogo from "../images/dblogo.png";
+import GamePress from "../images/gamepress.png";
+import DbzSpace from "../images/dbl.png";
 
 function Other() {
-  const [state, setState] = useState(false);
   let dbzs = "https://legends.dbz.space/";
   let gamepress = "https://gamepress.gg/dblegends/news";
   let dblsite = "https://dble.bn-ent.net/en/";
@@ -18,48 +22,52 @@ function Other() {
         margin: "0px",
         overFlowY: "hidden",
         overFlowX: "hidden",
+        alignItems: "center",
+        border: "1px solid red",
       }}
     >
       <br />
       <br />
+
+      <a href={dbzs}>
+        <Image
+          preview={{
+            visible: false,
+          }}
+          className="center"
+          width={500}
+          height={200}
+          src={DbzSpace}
+        />
+      </a>
+
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <a
-        href={dbzs}
-        style={{
-          fontSize: 22,
-          color: "blue",
-        }}
-      >
-        DBZ Space
+      <a href={gamepress}>
+        <Image
+          preview={{
+            visible: false,
+          }}
+          className="center"
+          width={1000}
+          height={200}
+          src={GamePress}
+        />
       </a>
       <br />
       <br />
       <br />
-      <a
-        href={gamepress}
-        style={{
-          fontSize: 22,
-          color: "blue",
-        }}
-      >
-        GamePress
-      </a>
-      <br />
-      <br />
-      <br />
-      <a
-        href={dblsite}
-        style={{
-          fontSize: 22,
-          color: "blue",
-        }}
-      >
-        Official Dragon Ball Legends Website
+      <a href={dblsite}>
+        <Image
+          preview={{
+            visible: false,
+          }}
+          className="center"
+          width={1000}
+          height={200}
+          src={LegendsLogo}
+        />
       </a>
     </div>
   );

@@ -3,6 +3,8 @@ import { Layout, Typography } from "antd";
 import { Routes, Route } from "react-router-dom";
 
 import SiderMenu from "./components/sider-menu";
+import Avatar from "./components/avatar";
+
 import HomePage from "./views/home-page";
 import Announcements from "./views/announcements";
 import GuildMembers from "./views/guild-members";
@@ -36,6 +38,7 @@ function App() {
         <Header
           style={{
             background: "black",
+            height: "auto",
           }}
         >
           <Title style={{ color: "green", fontWeight: "bold" }} level={1}>
@@ -43,10 +46,12 @@ function App() {
           </Title>
         </Header>
 
+        <Avatar style={{}}></Avatar>
+
         <Layout>
           <SiderMenu />
 
-          <Content style={{}}>
+          <Content>
             <Routes>
               <Route path="/" exact element={<HomePage />} />
               <Route path="/announcements" element={<Announcements />} />
