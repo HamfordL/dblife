@@ -2,6 +2,7 @@ import React from "react";
 import { Card } from "antd";
 
 import LeaderImage from "../images/uiomen.jpg";
+import IllyBanner from "../images/muiku.jpeg";
 
 const GuildLeader = () => (
   <div
@@ -29,20 +30,33 @@ const GuildLeader = () => (
     <br />
     <div className="site-card-border-less-wrapper">
       <Card
-        title="łƵłIllyrion"
+        title
         headStyle={{
           backgroundColor: "#5c6cfa",
-          color: "#ffffff",
-          fontWeight: "bold",
+          backgroundImage: `url(${IllyBanner})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "0px",
         }}
         bordered={false}
         style={{
           width: 400,
+          color: "green",
+          fontSize: 20,
+          background: "black",
         }}
       >
-        <p>Bad Bitch</p>
-        <p>Tall Bitch</p>
-        <p>Singing Bitch</p>
+        łƵłIllyrion
+        <br />
+        <br />
+        12x Godly
+        <br />
+        <br />
+        Smells feet for a living
+        <br />
+        <br />
+        1x Top Guild Season Scorer
+        <br />
       </Card>
     </div>
   </div>

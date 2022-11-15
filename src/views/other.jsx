@@ -3,7 +3,7 @@ import { Image } from "antd";
 
 import LegendsLogo from "../images/dblogo.png";
 import GamePress from "../images/gamepress.png";
-import DbzSpace from "../images/dbl.png";
+import DbzSpace from "../images/dbspace.png";
 
 function Other() {
   let dbzs = "https://legends.dbz.space/";
@@ -28,20 +28,17 @@ function Other() {
     >
       <br />
       <br />
-
       <a href={dbzs}>
         <Image
           preview={{
             visible: false,
           }}
           className="center"
-          width={500}
+          width={1000}
           height={200}
           src={DbzSpace}
         />
       </a>
-
-      <br />
       <br />
       <br />
       <a href={gamepress}>
@@ -55,7 +52,6 @@ function Other() {
           src={GamePress}
         />
       </a>
-      <br />
       <br />
       <br />
       <a href={dblsite}>

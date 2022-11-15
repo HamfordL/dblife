@@ -20,7 +20,10 @@ const Forums = () => (
     <container style={{}}>Forums</container>
     <br />
     <br />
-    <container style={{ fontSize: 25 }}>SOMETHING GOES IN HERE</container>
+    <br />
+    <br />
+    <br />
+    <container style={{ fontSize: 25 }}>COMING SOON!</container>
     <br />
     <br />
   </div>

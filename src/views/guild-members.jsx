@@ -47,10 +47,10 @@ const GuildMembers = () => (
             }}
             bordered={true}
           >
-            0x Godly
+            10x Godly
             <br />
             <br />
-            0x Top Guild Season Scorer
+            4x Top Guild Season Scorer
           </Card>
         </Col>
 
