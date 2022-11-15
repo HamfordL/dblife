@@ -10,7 +10,15 @@ import Wenergy from "../images/energy.jpeg";
 import Activepoints from "../images/apoints.jpg";
 
 const App = () => (
-  <div style={{ height: "100vh", background: "black" }}>
+  <div
+    style={{
+      height: "100vh",
+      background: "black",
+      margin: "0px",
+      overFlowY: "hidden",
+      overFlowX: "hidden",
+    }}
+  >
     <Image.PreviewGroup>
       <Image className="center" width={1500} height={200} src={Activepoints} />
       <br />

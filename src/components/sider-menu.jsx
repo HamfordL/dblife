@@ -5,8 +5,10 @@ const SiderMenu = () => (
   <Layout.Sider
     style={{
       background: "black",
-      padding: 0.1,
       height: "100vh",
+      margin: "0px",
+      padding: "0px",
+      overflowY: "hidden",
     }}
   >
     <Menu
@@ -109,9 +111,9 @@ const SiderMenu = () => (
             fontSize: 20,
           }}
         >
-          <Menu.Item key="dbSpace">DB Space</Menu.Item>
-          <Menu.Item key="gamePress">Game Press</Menu.Item>
-          <Menu.Item key="dblwebsite">DBL Website</Menu.Item>
+          <Menu.Item key="other">
+            <Link to="/other">Additional Website</Link>
+          </Menu.Item>
         </Menu.ItemGroup>
       </Menu.SubMenu>
 

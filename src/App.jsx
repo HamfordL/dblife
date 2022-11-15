@@ -11,6 +11,8 @@ import GuildOfficers from "./views/guild-officers";
 import Registration from "./views/registration";
 import SignIn from "./views/sign-in";
 import GuildPoints from "./views/guild-points";
+import Forums from "./views/forums";
+import Other from "./views/other";
 
 import "./App.css";
 
@@ -26,6 +28,9 @@ function App() {
           flexDirection: "column",
           height: "100vh",
           position: "relative",
+          margin: "0px",
+          overFlowY: "hidden",
+          overFlowX: "hidden",
         }}
       >
         <Header
@@ -51,6 +56,8 @@ function App() {
               <Route path="/registration" element={<Registration />} />
               <Route path="/sign-in" element={<SignIn />} />
               <Route path="/guild-points" element={<GuildPoints />} />
+              <Route path="/forums" element={<Forums />} />
+              <Route path="/other" element={<Other />} />
             </Routes>
           </Content>
         </Layout>

@@ -11,6 +11,8 @@ const GuildLeader = () => (
       fontWeight: "bold",
       color: "black",
       padding: 10,
+      overFlowY: "hidden",
+      overFlowX: "hidden",
       display: "flex",
       flex: 1,
       height: "100vh",
