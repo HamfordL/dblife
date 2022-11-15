@@ -35,8 +35,10 @@ function Other() {
           color: "blue",
         }}
       >
-        DB Space
+        DBZ Space
       </a>
+      <br />
+      <br />
       <br />
       <a
         href={gamepress}
@@ -47,6 +49,8 @@ function Other() {
       >
         GamePress
       </a>
+      <br />
+      <br />
       <br />
       <a
         href={dblsite}
