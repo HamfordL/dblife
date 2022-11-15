@@ -22,7 +22,7 @@ const GuildOfficers = () => (
       border: "1px solid red",
     }}
   >
-    <container style={{ border: "1px solid red" }}>
+    <container style={{}}>
       Our Guild's Officers consist of 2 long time members.
     </container>
     <br />

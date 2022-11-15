@@ -22,9 +22,7 @@ const GuildLeader = () => (
       border: "1px solid red",
     }}
   >
-    <container style={{ border: "1px solid red" }}>
-      Our Guild Leader's Page
-    </container>
+    <container style={{}}>Our Guild Leader's Page</container>
     <br />
     <br />
     <div className="site-card-border-less-wrapper">
@@ -37,7 +35,7 @@ const GuildLeader = () => (
         }}
         bordered={false}
         style={{
-          width: 300,
+          width: 400,
         }}
       >
         <p>Bad Bitch</p>

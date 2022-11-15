@@ -11,7 +11,12 @@ const SiderMenu = () => (
   >
     <Menu
       defaultSelectdKeys={["Home"]}
-      style={{ background: "orange", padding: 1 }}
+      style={{
+        background: "orange",
+        padding: 1,
+        fontWeight: "bold",
+        fontSize: 20,
+      }}
     >
       <Menu.Item key="Home">
         <Link to="/">Home</Link>
@@ -24,7 +29,14 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
+        <Menu.ItemGroup
+          style={{
+            background: "orange",
+            padding: 1,
+            fontWeight: "bold",
+            fontSize: 20,
+          }}
+        >
           <Menu.Item key="news">
             <Link to="/announcements">Announcements</Link>
           </Menu.Item>
@@ -38,10 +50,19 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
-          <Menu.Item key="teamBuild">Team Build</Menu.Item>
+        <Menu.ItemGroup
+          style={{
+            background: "orange",
+            padding: 1,
+            fontWeight: "bold",
+            fontSize: 20,
+          }}
+        >
+          <Menu.Item key="forums">
+            <Link to="/forums">Forums</Link>
+          </Menu.Item>
           <Menu.Item key="guildPoints">
-            <Link to="/guild-points">Guild Points</Link>
+            <Link to="/guild-points">Points Guide</Link>
           </Menu.Item>
         </Menu.ItemGroup>
       </Menu.SubMenu>
@@ -53,7 +74,14 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
+        <Menu.ItemGroup
+          style={{
+            background: "orange",
+            padding: 1,
+            fontWeight: "bold",
+            fontSize: 20,
+          }}
+        >
           <Menu.Item key="guildLeader">
             <Link to="/guild-leader">Guild Leader</Link>
           </Menu.Item>
@@ -69,24 +97,18 @@ const SiderMenu = () => (
       <Menu.SubMenu
         title={
           <span>
-            <span>Tournaments</span>
-          </span>
-        }
-      >
-        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
-          <Menu.Item key="inGuildTournament">In Guild Tournament</Menu.Item>
-          <Menu.Item key="public Tournament">Public Tournament</Menu.Item>
-        </Menu.ItemGroup>
-      </Menu.SubMenu>
-
-      <Menu.SubMenu
-        title={
-          <span>
             <span>Other</span>
           </span>
         }
       >
-        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
+        <Menu.ItemGroup
+          style={{
+            background: "orange",
+            padding: 1,
+            fontWeight: "bold",
+            fontSize: 20,
+          }}
+        >
           <Menu.Item key="dbSpace">DB Space</Menu.Item>
           <Menu.Item key="gamePress">Game Press</Menu.Item>
           <Menu.Item key="dblwebsite">DBL Website</Menu.Item>
@@ -100,7 +122,14 @@ const SiderMenu = () => (
           </span>
         }
       >
-        <Menu.ItemGroup style={{ background: "orange", padding: 1 }}>
+        <Menu.ItemGroup
+          style={{
+            background: "orange",
+            padding: 1,
+            fontWeight: "bold",
+            fontSize: 20,
+          }}
+        >
           <Menu.Item key="signIn">
             <Link to="/sign-in">Sign-In</Link>
           </Menu.Item>

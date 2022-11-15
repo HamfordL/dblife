@@ -443,7 +443,7 @@ const GuildMembers = () => (
             0x Godly
             <br />
             <br />
-            0x Top Guild Season Scorer
+            1x Top Guild Season Scorer
           </Card>
         </Col>
 

@@ -1,10 +1,12 @@
+import AnnImage from "../images/wmat.jpeg";
+
 const Announcements = () => (
   <div
     style={{
       background: "black",
       fontSize: 40,
       fontWeight: "bold",
-      color: "yellow",
+      color: "black",
       padding: 10,
       display: "flex",
       flex: 1,
@@ -12,13 +14,14 @@ const Announcements = () => (
       flexDirection: "column",
       alignItems: "center",
       border: "1px solid red",
+      backgroundImage: `url(${AnnImage})`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
     }}
   >
-    <container style={{ border: "1px solid red" }}>
-      Announcements Page
-    </container>
+    <container style={{}}>Announcements Page</container>
     <br />
-    <container style={{ border: "1px solid red" }}>
+    <container style={{}}>
       Read about the latest happenings from DB Life here!
     </container>
     <br />

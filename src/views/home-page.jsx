@@ -1,4 +1,4 @@
-import homeBackground from "../images/wmat.jpeg";
+import homeBackground from "../images/ssg.gif";
 
 const HomePage = () => (
   <div
